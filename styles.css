@@ -1,0 +1,70 @@
+/*Styling the whole page*/
+body{
+    background-color: skyblue;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*Styling header*/
+header {
+    position: fixed;
+    top: 0 auto;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+/*Styling all h1 headings*/
+h1{
+    text-align: center;
+    color: darkblue;
+    font-family: 'Arial', sans-serif;
+    font-style: bold;
+}
+
+/*Styling all h2 headings*/
+h2{
+    color: black;
+    font-family: 'Arial', sans-serif;
+    text-indent: 2% auto;
+    font-style: bold;
+}
+
+/*Ensuring all bold words stand out*/
+b{
+    color: blue;
+}
+
+/*Styling all paragraphs*/
+ nav {
+    position: sticky;
+    top: 0 auto;
+    left: 0 auto;
+    background-color: lightgrey;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2%;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    width: 20%;
+    list-style: none;
+}
+
+.regular {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 2%;
+    background-color: lightgrey;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% auto;
+    margin: 0;
+    flex-wrap: wrap;
+}
